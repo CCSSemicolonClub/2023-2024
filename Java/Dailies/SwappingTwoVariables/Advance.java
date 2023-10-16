@@ -1,4 +1,4 @@
-public class Main {
+public class Advance {
     public static void main(String[] args) {
         // Declare and initialize two integer variables, x and y.
         int x = 5;
