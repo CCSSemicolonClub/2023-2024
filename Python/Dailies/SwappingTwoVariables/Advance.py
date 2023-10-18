@@ -1,3 +1,13 @@
+"""
+Rules:                                                              
+i.     Swapping method must be void.                                                 
+ii.    You are not allowed to print anything inside the swapping method.
+iii.   Declaring variables outside the methods is prohibited.                                   
+iv.   Swapping two variables should only occur within the swapping method.                                                       
+v.    Using any types of parameters is allowed.
+vi.   Printing x must display 10, and printing y must display 5.
+vii.  You can use any programming language.
+"""
 def swap(arr):
     #Swap the values of x and y without using a temporary variable
     arr[0], arr[1] = arr[1], arr[0]
