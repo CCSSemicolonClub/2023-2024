@@ -1,3 +1,12 @@
+"""
+Create a FizzBuzz program, which will print
+    “Fizz” if the number is divisible by 3
+    “Buzz” if the number is divisible by 5
+    “FizzBuzz” if the number is divisible by 3 and 5
+    A number if none of the above
+    Make it up to 100
+"""
+
 # Iterate through numbers from 1 to 100
 for x in range(1, 101):
     # Initialize an empty string to store the result
