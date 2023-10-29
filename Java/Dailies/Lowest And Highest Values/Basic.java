@@ -5,7 +5,7 @@
 
 import java.util.Arrays;
 
-public class Main {
+public class Basic {
     public static void main(String[] args) {
         // Create an array of integers
         int[] arr = { 4, 2, 6, 7, 10, 44, 62, 1, 3, 5, -33 };
