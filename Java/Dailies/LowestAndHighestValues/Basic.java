@@ -1,3 +1,8 @@
+/*
+[Basic]
+    I. Create a program that selects the smallest and largest elements from the array. Any approach is allowed.
+*/
+
 import java.util.Arrays;
 
 public class Main {
