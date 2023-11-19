@@ -1,3 +1,9 @@
+/*
+Rules:
+You are ALLOWED to use recursion to calculate the factorial.
+Implement error handling to handle invalid input (e.g., negative numbers).
+*/
+
 using System;
 
 class Program
