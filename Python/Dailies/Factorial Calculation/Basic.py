@@ -11,5 +11,4 @@ def factorial_basic(n):  # Define a function named 'factorial_basic' that takes 
     for i in range(1, n + 1):  # Start a for loop that iterates from 1 to 'n' (inclusive).
         result *= i  # Multiply the current value of 'result' by the loop variable 'i'.
     return result  # Return the final value of 'result' as the factorial of 'n'.
-  
-#Add values below for calling the function
+
