@@ -8,8 +8,10 @@ Create a FizzBuzz program, which will print
 */
 public class Basic
 {
-    public static void main(String[] args) {
-        for (int x = 1; x <= 100; x++) {
+    public static void main(String[] args) 
+    {
+        for (int x = 1; x <= 100; x++) 
+        {
             String res = "";
 
             // Check if x is divisible by 3 and append "Fizz" if true
