@@ -13,17 +13,14 @@ public class Basic
         for (int x = 1; x <= 100; x++) 
         {
             String res = "";
-
             // Check if x is divisible by 3 and append "Fizz" if true
             if (x % 3 == 0) {
                 res += "Fizz";
             }
-
             // Check if x is divisible by 5 and append "Buzz" if true
             if (x % 5 == 0) {
                 res += "Buzz";
             }
-
             // If res is empty, print the number; otherwise, print res
             System.out.println(res.length() == 0 ? x : res);
         }
