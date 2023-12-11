@@ -1,6 +1,7 @@
 /*
 Create a program that calculates the factorial of a given number.
 */
+
 using System;
 
 class Basic
