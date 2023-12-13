@@ -3,6 +3,7 @@ Rules:
 You are ALLOWED to use recursion to calculate the factorial.
 Implement error handling to handle invalid input (e.g., negative numbers).
 """
+
 def factorial_advanced(n):
     # Step 1: Check if the input (n) is a negative number
     if n < 0:
