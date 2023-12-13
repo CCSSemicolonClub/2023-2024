@@ -10,6 +10,7 @@ Optimize the program to handle large factorials efficiently, taking into account
 Ensure the program works for calculating factorials of very large numbers, e.g., 200.
 Implement the factorial calculation in a way that allows you to calculate the factorial of a number modulo a given integer.
 """
+
 def factorial(n, mod=None):
     if n < 0:
         return "Invalid input (negative number)"
