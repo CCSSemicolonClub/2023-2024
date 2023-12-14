@@ -52,7 +52,7 @@ try:
     result_set5 = factorial(1000, 100)
     
     # Attempt to calculate factorials with invalid inputs to demonstrate error handling
-    # remodify the other first attempt correctly to check the second attempt
+    # Eemodify the first attempt correctly to check the second attempt
     result = factorial("a", 1)  # This line will raise a TypeError due to insufficient arguments
     result1 = factorial(1, "a")  # This line will raise a TypeError due to an invalid type for 'mod'
     
