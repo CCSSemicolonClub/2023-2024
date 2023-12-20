@@ -2,7 +2,7 @@
 Create a program that calculates the factorial of a given number.
 """
 
-def factorial_basic(n):  # Define a function named 'factorial_basic' that takes one argument 'n'.
+def factorial_basic(n:int) -> [int,str]:  # Define a function named 'factorial_basic' that takes one argument 'n'.
     if n < 0:  # Check if 'n' is a negative number.
         return "Invalid input (negative number)"  # Return an error message if 'n' is negative.
     if n == 0:  # Check if 'n' is equal to zero.
