@@ -13,23 +13,23 @@ Rules:
 class FizzBuzz:
     # Return the word "Fizz"
     @staticmethod
-    def fizz(num):
+    def fizz(num : int) -> str:
         return "Fizz"
 
     # Return the word "Buzz"
     @staticmethod
-    def buzz(num):
+    def buzz(num : int) -> str:
         return "Buzz"
 
     # Return the word "FizzBuzz"
     # Optional because we can call fizz and buzz and concatenate the words
     @staticmethod
-    def fizz_buzz_value(num):
+    def fizz_buzz_value(num : int) -> str:
         return "FizzBuzz"
 
     # Return the original number as a string
     @staticmethod
-    def default(num):
+    def default(num : int) -> str:
         return str(num)
 
 
