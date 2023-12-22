@@ -18,3 +18,5 @@ for num in arr:
 # Print the smallest and largest elements
 print("Smallest element:", smallest)
 print("Largest element:", largest)
+
+
