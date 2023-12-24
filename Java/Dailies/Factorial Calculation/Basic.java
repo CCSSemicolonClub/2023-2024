@@ -1,6 +1,7 @@
 /*
 Create a program that calculates the factorial of a given number.
 */
+
 public class Basic {
     public static int calculateFactorial(int n) {
         // Check if the input 'n' is negative.
