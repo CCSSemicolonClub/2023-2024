@@ -3,6 +3,7 @@
     No conditional statement (if, else, etc.)
     Any programming language is allowed to use
 */
+
 public class Advance
 {
 	public static void main(String[] args) {
