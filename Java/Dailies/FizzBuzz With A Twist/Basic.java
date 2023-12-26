@@ -6,6 +6,7 @@ Create a FizzBuzz program, which will print
   A number if none of the above
   Make it up to 100
 */
+
 public class Basic
 {
     public static void main(String[] args) 
