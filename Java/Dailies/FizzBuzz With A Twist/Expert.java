@@ -9,6 +9,7 @@
             o There will be 2 classes, main class and fizzbuzz class
       Any programming language is allowed to use
 */
+
 import java.util.function.Function;
 
 public class Expert {
