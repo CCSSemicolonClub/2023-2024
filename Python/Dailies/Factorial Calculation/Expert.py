@@ -13,7 +13,6 @@ Implement the factorial calculation in a way that allows you to calculate the fa
 
 # Define a function called factorial that takes two arguments: 'n' (number to find factorial of) 
 # and 'mod' (optional modulo value)
-
 # the return hint annotation (int, str) is used after the -> symbol 
 # in the function definition to indicate on what possible types of return values 
 # that the factorial function can produce
