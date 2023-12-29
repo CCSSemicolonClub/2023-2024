@@ -9,6 +9,7 @@ Required variables for Basic and Advance Categories:
            Using any approach is allowed, as long as when you print x, 
            it will display 10, and for y, it will display 5.
 */
+
 public class Basic {
     public static void main(String[] args) {
         int a = 5;
