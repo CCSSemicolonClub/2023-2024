@@ -8,10 +8,10 @@ v.    Using any types of parameters is allowed.
 vi.   Printing x must display 10, and printing y must display 5.
 vii.  You can use any programming language.
 """
+
 def swap(arr):
     #Swap the values of x and y without using a temporary variable
     arr[0], arr[1] = arr[1], arr[0]
-
 
 #Declare variables 
 x = 5 
