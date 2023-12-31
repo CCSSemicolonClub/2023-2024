@@ -19,6 +19,7 @@ class Basic
       By using object as the return type, the method gains flexibility in returning different types of values, 
       making it versatile for various scenarios.
     */
+    
     static object FactorialBasic(int n)
     {
         if (n < 0)
