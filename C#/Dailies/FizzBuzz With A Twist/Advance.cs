@@ -3,6 +3,7 @@
     No conditional statement (if, else, etc.)
     Any programming language is allowed to use
 */
+
 using System;
 class HelloWorld {
     static void Main() {
