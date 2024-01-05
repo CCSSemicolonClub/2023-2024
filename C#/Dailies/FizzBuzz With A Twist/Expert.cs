@@ -11,7 +11,6 @@
 */
 
 using System;
-
 class FizzBuzz
 {
     // return the word Fizz
