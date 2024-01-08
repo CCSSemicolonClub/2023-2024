@@ -8,6 +8,7 @@ v.    Using any types of parameters is allowed.
 vi.   Printing x must display 10, and printing y must display 5.
 vii.  You can use any programming language.
 */
+
 public class Advance {
     public static void main(String[] args) {
         // Declare and initialize two integer variables, x and y.
