@@ -5,7 +5,6 @@ Implement error handling to handle invalid input (e.g., negative numbers).
 */
 
 public class Advance {
-
     // Function to calculate factorial using recursion
     static Object calculateFactorial(int n) {
         // Step 1: Check if the input (n) is a negative number
