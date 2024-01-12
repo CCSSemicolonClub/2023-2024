@@ -3,6 +3,7 @@
 */
 
 using System;
+
 class Palindrome {
     static bool IsPalindrome(string input)
     {
