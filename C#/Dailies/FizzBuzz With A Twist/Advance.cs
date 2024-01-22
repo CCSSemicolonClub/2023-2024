@@ -5,6 +5,7 @@
 */
 
 using System;
+
 class HelloWorld {
     static void Main() {
         for(int x = 1; x <= 100; x++){
