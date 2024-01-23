@@ -8,6 +8,7 @@ Create a FizzBuzz program, which will print
 */
 
 using System;
+
 class HelloWorld {
     static void Main() {
         // Iterate through numbers from 1 to 100
