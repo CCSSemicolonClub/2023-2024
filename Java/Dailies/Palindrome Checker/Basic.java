@@ -5,7 +5,6 @@
 import java.util.Scanner;
 
 public class Basic {
-
     public static boolean isPalindrome(String input) {
         // Convert the input string to lowercase for case-insensitive comparison
         input = input.toLowerCase();
