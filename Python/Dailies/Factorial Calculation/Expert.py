@@ -16,6 +16,7 @@ Implement the factorial calculation in a way that allows you to calculate the fa
 # the return hint annotation (int, str) is used after the -> symbol 
 # in the function definition to indicate on what possible types of return values 
 # that the factorial function can produce
+
 def factorial(n: int, mod: int = None) -> (int, str):
     # Check if 'n' is an integer and 'mod' is an integer, float, or None; 
     # raise a TypeError if they're not
