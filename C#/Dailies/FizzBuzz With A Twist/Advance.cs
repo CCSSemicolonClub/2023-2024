@@ -6,9 +6,12 @@
 
 using System;
 
-class HelloWorld {
-    static void Main() {
-        for(int x = 1; x <= 100; x++){
+class HelloWorld 
+{
+    static void Main() 
+    {
+        for(int x = 1; x <= 100; x++)
+        {
           /*
             The use of the ternary operator here allows the program to make decisions 
             without using traditional if or else statements. 
