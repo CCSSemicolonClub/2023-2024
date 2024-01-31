@@ -4,7 +4,8 @@
 
 using System;
 
-class Palindrome {
+class Palindrome 
+{
     static bool IsPalindrome(string input)
     {
         // Convert the input string to lowercase for case-insensitive comparison
@@ -31,7 +32,8 @@ class Palindrome {
         return true;
     }
     
-    static void Main() {
+    static void Main() 
+    {
         Console.Write("Enter a string: ");
         string userInput = Console.ReadLine();
 
