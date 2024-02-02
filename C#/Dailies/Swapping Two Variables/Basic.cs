@@ -12,8 +12,10 @@ Required variables for Basic and Advance Categories:
 
 using System;
 
-class SwapTwoVariables {
-    public static void Main(string[] args) {
+class SwapTwoVariables 
+{
+    public static void Main(string[] args) 
+    {
         int a = 5;
         int b = 10;
         
