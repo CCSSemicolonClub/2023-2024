@@ -10,6 +10,7 @@ for num in arr:
     # replace the value
     if num < smallest:
         smallest = num
+        
     # If the current number is larger than current value of "largest"
     # replace the value
     if num > largest:
