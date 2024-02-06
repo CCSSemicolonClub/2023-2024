@@ -9,7 +9,6 @@ def is_palindrome(input_str):
     # Check if the cleaned string is equal to its reverse
     return cleaned_str == cleaned_str[::-1]
 
-
 user_input = input("Enter a string: ")
 
 # Check if the input string is a palindrome
