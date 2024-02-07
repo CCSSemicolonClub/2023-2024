@@ -3,6 +3,7 @@
 """
 
 def is_palindrome(input_str):
+    
     # Convert the input string to lowercase and remove spaces for simplicity
     cleaned_str = ''.join(input_str.lower().split())
 
