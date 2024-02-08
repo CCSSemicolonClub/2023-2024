@@ -26,11 +26,14 @@ class Basic
         {
             return "Invalid input (negative number)"; // Return an error message if 'n' is negative.
         }
+        
         if (n == 0)
         {
             return 1; // Return 1 if 'n' is zero because the factorial of 0 is defined as 1.
         }
+        
         int result = 1; // Initialize a variable 'result' to 1.
+        
         for (int i = 1; i <= n; i++) // Start a for loop that iterates from 1 to 'n' (inclusive).
         {
             result *= i; // Multiply the current value of 'result' by the loop variable 'i'.
