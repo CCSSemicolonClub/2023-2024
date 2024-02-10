@@ -32,6 +32,7 @@ class Program
         * The result is multiplied by n and returned.
         * This process continues until it reaches the base case (n equals 0), at which point it starts returning values and unwinding the recursion.
         */
+        
         return n * (int) FactorialAdvanced(n - 1);
     }
 
