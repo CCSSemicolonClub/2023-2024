@@ -34,6 +34,7 @@ class Program
         */
         
         return n * (int) FactorialAdvanced(n - 1);
+        
     }
 
     static void Main(string[] args)
