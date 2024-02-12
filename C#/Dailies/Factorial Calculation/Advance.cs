@@ -8,9 +8,11 @@ using System;
 
 class Program
 {
+    
     // Function to calculate factorial using recursion
     static object FactorialAdvanced(int n)
     {
+        
         // Step 1: Check if the input (n) is a negative number
         if (n < 0)
         {
