@@ -22,6 +22,7 @@ class Basic
     
     static object FactorialBasic(int n)
     {
+        
         if (n < 0)
         {
             return "Invalid input (negative number)"; // Return an error message if 'n' is negative.
@@ -43,6 +44,7 @@ class Basic
 
     static void Main(string[] args)
     {
+        
         // Add values below for calling the function and displaying the result
         int valueToCalculateFactorial = 5; // Change the value to calculate different factorials
 
