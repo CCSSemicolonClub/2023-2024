@@ -10,6 +10,7 @@ class HelloWorld
 {
     static void Main() 
     {
+     
         for(int x = 1; x <= 100; x++)
         {
           /*
@@ -22,5 +23,6 @@ class HelloWorld
             x % 5 == 0 ? "Buzz" :
             $"{x}");
         }
+     
     }
 }
