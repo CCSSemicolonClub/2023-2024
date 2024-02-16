@@ -13,6 +13,7 @@ class HelloWorld
 {
     static void Main() 
     {
+        
         // Iterate through numbers from 1 to 100
         for(int x=1; x <= 100; x++)
         {
@@ -39,5 +40,6 @@ class HelloWorld
                 !string.IsNullOrEmpty(res) ? res : 
                 x.ToString());
         }
+        
     }
 }
