@@ -12,10 +12,12 @@ class Program
 
         // Display the resulting array
         Console.WriteLine("Array after removing duplicates:");
+        
         foreach (int num in uniqueArray)
         {
             Console.Write(num + " ");
         }
+        
     }
 
     static int[] RemoveDuplicates(int[] array)
