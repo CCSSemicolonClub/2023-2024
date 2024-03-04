@@ -22,6 +22,7 @@ class Program
 
     static int[] RemoveDuplicates(int[] array)
     {
+        
         // Create a boolean array to mark visited elements
         bool[] visited = new bool[array.Length];
         
@@ -38,6 +39,7 @@ class Program
         // Loop through each element in the input array
         for (int i = 0; i < array.Length; i++)
         {
+            
             // If the current element is not visited yet
             if (!visited[i])
             {
