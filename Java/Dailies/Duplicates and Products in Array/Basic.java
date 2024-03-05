@@ -2,6 +2,7 @@ import java.util.Arrays;
 
 public class Basic {
     public static void main(String[] args) {
+        
         // Input array
         int[] array = { 4, 2, 5, 2, 3, 4, 1, 6, 5 };
 
@@ -10,12 +11,14 @@ public class Basic {
 
         // Display the resulting array
         System.out.println("Array after removing duplicates:");
+        
         for (int num : uniqueArray) {
             System.out.print(num + " ");
         }
     }
 
     public static int[] removeDuplicates(int[] array) {
+        
         // Create a boolean array to mark visited elements
         boolean[] visited = new boolean[array.length];
 
@@ -30,6 +33,7 @@ public class Basic {
 
         // Loop through each element in the input array
         for (int i = 0; i < array.length; i++) {
+            
             // If the current element is not visited yet
             if (!visited[i]) {
                 // Mark the current element as visited
@@ -40,6 +44,7 @@ public class Basic {
 
                 // Check for duplicates and mark them as visited
                 for (int j = i + 1; j < array.length; j++) {
+                    
                     if (array[i] == array[j]) {
                         visited[j] = true;
                     }
