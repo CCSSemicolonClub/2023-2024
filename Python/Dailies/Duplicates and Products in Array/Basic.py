@@ -16,5 +16,6 @@ unique_array = remove_duplicates(array)
 
 # Display the resulting array
 print("Array after removing duplicates:")
+
 for num in unique_array:
     print(num, end=" ")
