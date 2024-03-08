@@ -7,7 +7,6 @@ def remove_duplicates(array):
     # Return the set converted back to a list
     return list(unique_set)
 
-
 # Input array
 array = [4, 2, 5, 2, 3, 4, 1, 6, 5]
 
