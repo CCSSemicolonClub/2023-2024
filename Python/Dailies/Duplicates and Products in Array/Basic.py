@@ -1,9 +1,12 @@
 def remove_duplicates(array):
+    
     # Use a set to store unique elements
     unique_set = set()
+    
     # Iterate through the array and add unique elements to the set
     for num in array:
         unique_set.add(num)
+        
     # Return the set converted back to a list
     return list(unique_set)
 
