@@ -2,7 +2,6 @@ using System;
 
 class Program
 {
-    
     static void Main(string[] args)
     {
         // Define the array of integers
