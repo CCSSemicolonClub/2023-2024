@@ -5,7 +5,7 @@ class Program
     static void Main(string[] args)
     {
         // Define the array of integers
-        int[] numbers = { 5, 2, 7, 4, 3, 6 };
+        int[] numbers = { 5, 2, 7, 4, 3, 6};
 
         // Sort the array in ascending order
         Array.Sort(numbers);
