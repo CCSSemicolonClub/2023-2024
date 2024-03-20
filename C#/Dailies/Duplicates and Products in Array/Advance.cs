@@ -23,5 +23,4 @@ class Program
         // Output the two integers that yield the maximum product
         Console.WriteLine($"These two integers are: {numbers[n - 1]} and {numbers[n - 2]}");
     }
-    
 }
